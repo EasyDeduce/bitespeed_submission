@@ -8,7 +8,7 @@ interface IdentifyRequest {
 
 interface IdentifyResponse {
   contact: {
-    primaryContatctId: number;
+    primaryContactId: number;
     emails: string[];
     phoneNumbers: string[];
     secondaryContactIds: number[];
@@ -46,7 +46,7 @@ export async function identify(body: IdentifyRequest): Promise<IdentifyResponse>
 
     return {
       contact: {
-        primaryContatctId: newContact.id,
+        primaryContactId: newContact.id,
         emails: emailStr ? [emailStr] : [],
         phoneNumbers: phoneStr ? [phoneStr] : [],
         secondaryContactIds: [],
@@ -161,7 +161,7 @@ export async function identify(body: IdentifyRequest): Promise<IdentifyResponse>
 
   return {
     contact: {
-      primaryContatctId: truePrimary.id,
+      primaryContactId: truePrimary.id,
       emails,
       phoneNumbers,
       secondaryContactIds,

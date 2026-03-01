@@ -37,7 +37,7 @@ Both fields are optional, but at least one must be provided.
 ```json
 {
   "contact": {
-    "primaryContatctId": 1,
+    "primaryContactId": 1,
     "emails": ["example@email.com"],
     "phoneNumbers": ["1234567890"],
     "secondaryContactIds": [2, 3]
