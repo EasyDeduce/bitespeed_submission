@@ -5,6 +5,7 @@ A web service that identifies and consolidates customer contact information acro
 ## USE OF AI: Claude Opus 4.6
 ## WORK SEGREGATION:
 - **AI :** Refining the code, handling postgresql for deployment, assistive use in debugging, writing render config, suggesting ideal tsconfig, getting a required package.json and generating package-lock.json, improvising readme.
+
 - **Self-Done :** Implementation logic, Initial Typescript code implementing my logic (index.ts, database.ts, Contact.ts, identify.ts), debugging self written code, debugging and safety-checking AI refined code, handling git commits and render deployment, writing sqlite script for local deployment.
   
 ## Tech Stack
@@ -16,7 +17,7 @@ A web service that identifies and consolidates customer contact information acro
 
 ## Live Endpoint
 
-**Base URL:** `https://bitespeed-identity-recon.onrender.com`
+**Base URL:** `https://bitespeed-submission.onrender.com/`
 
 ### `POST /identify`
 
