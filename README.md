@@ -2,6 +2,11 @@
 
 A web service that identifies and consolidates customer contact information across multiple purchases, even when different email addresses and phone numbers are used.
 
+## USE OF AI: Claude Opus 4.6
+## WORK SEGREGATION:
+- **AI :** Refining the code, handling postgresql for deployment, assistive use in debugging, writing render config, suggesting ideal tsconfig, getting a required package.json and generating package-lock.json, improvising readme.
+- **Self-Done :** Implementation logic, Initial Typescript code implementing my logic (index.ts, database.ts, Contact.ts, identify.ts), debugging self written code, debugging and safety-checking AI refined code, handling git commits and render deployment, writing sqlite script for local deployment.
+  
 ## Tech Stack
 
 - **Runtime:** Node.js with TypeScript
